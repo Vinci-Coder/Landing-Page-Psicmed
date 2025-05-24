@@ -17,7 +17,7 @@ import TherapyWorkshopsCarousel from "@/components/TherapyWorkshopsCarousel"
 export default function Home() {
   return (
     <>
-      <StructuredData />
+      {/* <StructuredData /> */}
       <div className="flex min-h-screen flex-col">
         <Navbar />
 
