@@ -11,7 +11,7 @@ export default function Services() {
     icon: <UserIcon className="h-6 w-6 text-primary" />,
     title: "Psicoterapia Individual",
     description:
-      "Atendimento psicológico para crianças, adolescentes e adultos com base em Gestalt-terapia, TCC e Psicanálise. Apoio para ansiedade, autoestima, depressão e luto.",
+      "Atendimento psicológico para crianças, adolescentes e adultos com base em Gestalt-terapia e TCC (Terapia Cognitivo-Comportamental). Apoio para ansiedade, autoestima, depressão e luto.",
     accentColor: "rgba(79, 124, 172, 0.5)",
   },
   {
@@ -110,9 +110,6 @@ export default function Services() {
           transition={{ duration: 0.6 }}
         >
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-[#ec7894] px-3 py-1 text-sm text-primary-foreground mb-2 bg-[#ec7894]">
-              Serviços
-            </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Serviços Psicológicos Especializados</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
               Atendimentos clínicos e avaliações psicológicas baseadas em evidências, voltados para diagnóstico, intervenção e promoção da saúde mental.

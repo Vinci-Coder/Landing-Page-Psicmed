@@ -40,9 +40,6 @@ export default function CardCarousel() {
     <section className="bg-gradient-to-b from-[#fff] to-[#FDE2E4] dark:from-background dark:to-muted/10 py-20" id="clinic">
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12 px-4">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-[#ec7894] px-3 py-1 text-sm text-primary-foreground mb-2">
-            Espaço Terapêutico
-          </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Um lugar acolhedor para o seu cuidado
           </h2>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Calendar, Heart, Users, Phone, Stethoscope, MessageCircle, Mail, MapPin } from "lucide-react"
+import { Calendar, Phone, MessageCircle, Mail, MapPin } from "lucide-react"
 import Image from "next/image"
 import ContactForm from "@/components/contact-form"
 import Testimonials from "@/components/testimonials"
@@ -9,7 +9,6 @@ import Footer from "@/components/footer"
 import CssGridBackground from "@/components/css-grid-background"
 import FramerSpotlight from "@/components/framer-spotlight"
 import SpecialtiesSection from "@/components/specialties-section"
-import StructuredData from "@/components/structured-data"
 import AboutSection from "@/components/about-section"
 import PlaceSection from "@/components/place-section"
 import TherapyWorkshopsCarousel from "@/components/TherapyWorkshopsCarousel"
@@ -172,7 +171,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="space-y-8 lg:ml-10 w-full">
+          <div className="w-full">
             <ContactForm />
           </div>
         </div>

@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Mind & Wellness | Professional Psychology Services",
+  title: "Psicóloga Kalynna Moreira",
   description:
     "Compassionate psychological services including therapy, counseling, and assessment for individuals, couples, and families.",
   keywords: "psychologist, therapy, counseling, mental health, anxiety, depression, trauma, couples therapy",
@@ -15,22 +15,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://mindandwellness.com",
-    title: "Mind & Wellness | Professional Psychology Services",
+    title: "Kalynna Moreira | Psicóloga",
     description:
       "Compassionate psychological services including therapy, counseling, and assessment for individuals, couples, and families.",
-    siteName: "Mind & Wellness Psychology",
+    siteName: "Psicóloga Kalynna Moreira",
     images: [
       {
-        url: "https://mindandwellness.com/og-image.jpg",
+        url: "../public/Kalynna.jpg",
         width: 1200,
         height: 630,
-        alt: "Mind & Wellness Psychology",
+        alt: "Kalynna Moreira | Psicóloga",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mind & Wellness | Professional Psychology Services",
+    title: "Psicóloga Kalynna Moreira",
     description: "Compassionate psychological services for mental health and personal growth.",
     images: ["https://mindandwellness.com/twitter-image.jpg"],
   },

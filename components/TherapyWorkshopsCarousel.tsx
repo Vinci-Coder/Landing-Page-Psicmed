@@ -39,9 +39,6 @@ export default function TherapyWorkshopsCarousel() {
     <section className="bg-[#D4E9F7] dark:from-background dark:to-muted/10 py-20" id="workshops">
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12 px-4">
         <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground mb-2">
-            Oficinas Terapêuticas
-          </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Criatividade e Emoção em Movimento
           </h2>
